@@ -29,4 +29,8 @@ OR
 
 kubectl delete pod minio-0 -n minio
 
+# Method 2
+
+You can edit the persistant-storage in Values-dev.yaml from Azure devops repo which will be synk using ArgoCD. 
+
 
